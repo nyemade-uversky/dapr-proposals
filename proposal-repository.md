@@ -16,6 +16,9 @@ Keeping proposal centralized means that they are much more discoverable and also
 
 Create a new repository (`dapr/proposals`) and begin to store new proposals there as Markdown files. New proposals will come in the form of pull requests to the repository, and once they are accepted / completed the PR will be merged and the proposal / design will be available in the repository. 
 
+#### Example
+
+The gRPC proposal repository is a good example of this (https://github.com/grpc/proposal)
 
 ### What needs to be done?
 
