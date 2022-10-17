@@ -25,8 +25,8 @@ The templates for this will include the following structure:
 
 #### Design Template
 
-1. What is being proposed?
-2. Why is this being proposed?
+1. What problem is being addressed in this proposal?
+2. What is being proposed to address this problem?
 3. What is in scope for this proposal?
 4. What is deliberately *not* in scope? 
 5. What alternatives have been considered?
@@ -46,8 +46,6 @@ The templates for this will include the following structure:
   * Tests added (e2e, unit)
   * SDK changes (if needed)
   * Documentation
-
-
 
 ## Why do we want to do this?
  
