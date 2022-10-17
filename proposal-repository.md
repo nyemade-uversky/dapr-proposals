@@ -19,8 +19,8 @@ Create a new repository (`dapr/proposals`) and begin to store new proposals ther
 
 ### What needs to be done?
 
-[ ] Create a new repository
-[ ] Create a README.md in the new repository outlining the process for creating a new proposal with pointers to examples, templates, etc. 
-[ ] Move any in-flight proposals to PRs against this new repository
-[ ] (Optional) move previous proposals to this repository as Markdown files
-[ ] Update any documentation to point to this new repository
+- [ ] Create a new repository
+- [ ] Create a README.md in the new repository outlining the process for creating a new proposal with pointers to examples, templates, etc. 
+- [ ] Move any in-flight proposals to PRs against this new repository
+- [ ] (Optional) move previous proposals to this repository as Markdown files
+- [ ] Update any documentation to point to this new repository
