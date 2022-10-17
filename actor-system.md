@@ -120,11 +120,11 @@ Currently, `daprd` sends all of the known actor types at once to the placement s
 
 #### Reminder Registration
 
-![placement-scheduler](placement scheduler-1.png)
+![placement-scheduler](placement-scheduler-1.png)
 
 #### Reminder Execution
 
-![reminder-execution](placement scheduler-execute.png)
+![reminder-execution](placement-scheduler-execute.png)
 
 
 
