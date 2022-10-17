@@ -116,13 +116,15 @@ Currently, `daprd` sends all of the known actor types at once to the placement s
 
 #### Actor Registration
 
-![[placement-register.png]]
+![placement-register](placement-register.png)
+
 #### Reminder Registration
 
-![[placement scheduler - 1.png]]
+![placement-scheduler](placement scheduler-1.png)
 
 #### Reminder Execution
-![[placement scheduler - execute.png]]
+
+![reminder-execution](placement scheduler-execute.png)
 
 
 
@@ -145,19 +147,19 @@ In addition, the application should be able to expose many different types of ac
 
 ### What needs to be done
 
-[ ] Code changes
-	[ ] Add metrics (to measure current behavior and performance as a baseline)
-	[ ] Create new gRPC messages for placement service dispatch commands
-	[ ] Add timer / reminder registration to placement service
-	[ ] Add persistence / dissemination of reminder data to placement service cluster
-	[ ] Add scheduling and dispatch engine to placement service
-	[ ] Change daprd to forward registrations to placement cluster
-	[ ] Add migration code to move existing reminder / timers to placement service
-	[ ] Add dispatch handling to `daprd`
-	[ ] Change `daprd` to send registered actors to placement service in blocks instead of all-at-once
-[ ] Test changes
-	[ ] Additional performance tests for reminder registration and execution
-	[ ] E2E tests ensuring that placement service properly handles execution of reminders 
-	[ ] Double-activation guard tests 
-[ ] Documentation changes
-	[ ] Outline where reminders and timers are stored / how they are handled
+- [ ] Code changes
+        - [ ] Add metrics (to measure current behavior and performance as a baseline)
+	- [ ] Create new gRPC messages for placement service dispatch commands
+	- [ ] Add timer / reminder registration to placement service
+	- [ ] Add persistence / dissemination of reminder data to placement service cluster
+	- [ ] Add scheduling and dispatch engine to placement service
+	- [ ] Change daprd to forward registrations to placement cluster
+	- [ ] Add migration code to move existing reminder / timers to placement service
+	- [ ] Add dispatch handling to `daprd`
+	- [ ] Change `daprd` to send registered actors to placement service in blocks instead of all-at-once
+- [ ] Test changes
+	- [ ] Additional performance tests for reminder registration and execution
+	- [ ] E2E tests ensuring that placement service properly handles execution of reminders 
+	- [ ] Double-activation guard tests 
+- [ ] Documentation changes
+	- [ ] Outline where reminders and timers are stored / how they are handled
