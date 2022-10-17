@@ -94,8 +94,8 @@ BenchmarkTimerReport-8              	300000000	         5.69 ns/op
 
 ### What needs to be done?
 
-[ ] Implement metrics registry in Dapr 
-[ ] Create stable metrics interfaces inside Dapr (lightweight wrappers)
-[ ] Wire metrics registry to existing Prometheus reporter
-[ ] Add metrics-consumption information to docs (i.e how does an end-user consume the metrics that Dapr exports)
-[ ] Add metrics-exporting information to developer notes / docs (i.e naming conventions, when to use gauges, counters, timers, etc.)
+- [ ] Implement metrics registry in Dapr 
+- [ ] Create stable metrics interfaces inside Dapr (lightweight wrappers)
+- [ ] Wire metrics registry to existing Prometheus reporter
+- [ ] Add metrics-consumption information to docs (i.e how does an end-user consume the metrics that Dapr exports)
+- [ ] Add metrics-exporting information to developer notes / docs (i.e naming conventions, when to use gauges, counters, timers, etc.)
