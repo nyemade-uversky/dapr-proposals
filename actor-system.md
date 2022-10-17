@@ -48,7 +48,7 @@ The right-most plot shows the total number of reminders that have been registere
 
 The process for testing the system was as follows:
 
-1. Register N reminders, with a due-date and period such that they will fire twice to avoid registering reminders while executing them constantely, using the Go SDK 
+1. Register N reminders, with a due-date and period such that they will fire twice to avoid registering reminders while executing them constantly, using the Go SDK 
 2. Record memory and CPU usage by sampling the resources used by the `daprd` process in the process table
 3. Allow some reasonable amount of time after creating the total number of reminders for collecting data
 4. Programmatically remove the reminders that were created. 
